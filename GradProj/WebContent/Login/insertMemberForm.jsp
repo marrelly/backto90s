@@ -11,9 +11,11 @@
 </head>
 <body>
 <div class="big">
+<br><br><br><br><br><br>
 <h1>회원가입</h1>
+
 <form method = "POST" action = "insertMemberpro.jsp">
-<table border = "1">
+<table border = "1" >
 <tr>
 <th>아이디 </th><td><input type = "text" name = "id"></td>
 </tr>
@@ -35,7 +37,7 @@
 </tr>
 </table>
 <br>
-<input type = "submit" value = "회원가입">
+<input type = "submit" class="bdbtn" value = "회원가입">
 
 </form>
 </div>
