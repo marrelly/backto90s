@@ -1,0 +1,50 @@
+ @CHARSET "UTF-8";
+ 
+p {
+  width: 100px; /* 정렬하려는 요소의 넓이를 반드시 지정 */
+  margin: 0 auto;
+  position:absolute;
+}
+
+body {
+  
+   background-color:#00009C;
+   font-color:#FFFFFF;
+   font-family: 'NeoDunggeunmo';
+   
+  
+}
+  
+}
+.spinner-border text-light{
+		
+	
+	position: absolute;
+	height : 50%;
+	width : 50%;
+	padding: 7px;
+  	text-align: center;
+  	top:50%;
+    background-color: rgba( 0, 0, 0, 0 );
+    color: white;
+    font-family: 'NeoDunggeunmo';
+  
+}
+
+.hibtn{
+	position : absolute;
+	height : 100%;
+	width : 100%;
+	padding: 7px;
+  	text-align: center;
+ 	top :50%;
+    background-color: rgba( 0, 0, 0, 0 );
+    color: white;
+    font-family: 'NeoDunggeunmo';
+	
+
+
+
+
+}
+
