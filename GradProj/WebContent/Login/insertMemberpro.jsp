@@ -46,7 +46,7 @@
 			else  {
 				PrintWriter script = response.getWriter();
 				script.println("<script>");
-				script.println("location.href = 'sessionMain.jsp'");
+				script.println("location.href = 'sessionLoginForm.jsp'");
 				script.println("</script>");
 			}	
 		}

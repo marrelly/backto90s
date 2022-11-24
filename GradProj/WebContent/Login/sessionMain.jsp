@@ -55,7 +55,7 @@ if(id == null || id.equals(""))
 <%
 if(id.equals("admin1")){
 	%>
-	  <input type = "submit" value = "회원목록조회" onclick="javascript: form.action = 'list.jsp';">
+	  <input type = "submit" class="bdbtn" value = "회원목록조회" onclick="javascript: form.action = 'list.jsp';">
 	<% 
 }
 %>

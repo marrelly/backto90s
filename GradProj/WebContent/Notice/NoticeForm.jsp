@@ -46,6 +46,14 @@ if(id.equals("admin1")){
 <h3>번호&nbsp;&nbsp;&nbsp;제목&nbsp;&nbsp;&nbsp;이름&nbsp;&nbsp;&nbsp;날짜&nbsp; &nbsp;&nbsp;조회수 </h3>
 
 <hr>
+<table border="1">
+<tr>
+<td id="no"> <h3>번호</h3> </td>
+<td id="title"> <h3>제목</h3> </td>
+<td id="name"><h3>이름</h3> </td>
+<td id="date"><h3>날짜</h3> </td>
+<td id="view"><h3>조회수</h3></td>
+</tr>
 <%
 System.out.println(MyList);
 if(MyList.size()>0) {
